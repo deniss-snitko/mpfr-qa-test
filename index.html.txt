@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bullhorn Test Site</title>
+    <style>body { background: black; color: white; font-family: sans-serif; }</style>
+
+    <script type="text/javascript">
+        window.hfAccountId = "d77c726c-d77d-4d81-a41d-322619816e5d";
+        window.hfDomain = "https://api.herefish.com";
+        (function() {
+            var hf = document.createElement('script'); hf.type = 'text/javascript'; hf.async = true;
+            hf.src = window.hfDomain + '/scripts/hf.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hf, s);
+        })();
+    </script>
+</head>
+<body>
+    <h1>Testing Bullhorn Automation</h1>
+    <p>This page is black for testing purposes.</p>
+</body>
+</html>
